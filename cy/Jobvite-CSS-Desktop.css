@@ -41,8 +41,8 @@
     width: 780px;
     height: 630px;
     font-size: 0;
-    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-1.png") no-repeat center 0px, url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-2.png") no-repeat 80px 283px;
-    background-size: 354px, 1000px;
+    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-1.png") no-repeat center 0px, url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-2.png") no-repeat 0px 283px;
+    background-size: 354px, 780px;
     text-align: center;
     margin-top: 50px;
 }
