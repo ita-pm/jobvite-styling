@@ -1,73 +1,160 @@
-
-
 /* ===== SITE LAYOUT =================== */
-	.jv-page-container 	{ }
-	.jv-page 			{ }
-	.jv-page-content 	{ }
-	.jv-page-header 	{ }
-	.jv-page-body 		{ }
-	.jv-wrapper 		{ }
-	.jv-footer 			{ }
+.jv-page-container {
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+
+.jv-page-container .jv-logo {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    border: none;
+}
+.jv-page-container .jv-logo a {
+    width: 780px;
+    height: 440px;
+    font-size: 0;
+    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/logo.png") no-repeat center;
+    background-size: cover;
+    cursor: pointer !important;
+}
+
+.jv-page {
+}
+.jv-page-content {
+}
+.jv-page-header {
+    margin-left: calc((100vw - 780px) / -2);
+    margin-right: calc((100vw - 780px) / -2);
+    height: 440px;
+    background-color: #379ce4;
+}
+.jv-page-body {
+    padding-top: 25px;
+}
+
+.jv-wrapper {
+}
+.jv-footer {
+    width: 780px;
+    height: 630px;
+    font-size: 0;
+    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-1.png") no-repeat center 0px, url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-2.png") no-repeat 80px 283px;
+    background-size: 354px, 1000px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.jv-footer  .jv-wrapper{
+    opacity: 0;
+}
+
+
+/* ===== JOB LISTINGS PAGE  =================== */
+
+.jv-page-error {
+}
+.jv-page-body h2 {
+    display: none;
+}
+.jv-page-body p {
+    color: #302f4d;
+}
+
+h3.h2 {
+    color: #525252;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+.jv-job-list {
+}
+.jv-job-list th {
+}
+.jv-job-list td {
+    border: none;
+}
+.jv-job-list .jv-job-list-name {
+}
+.jv-job-list .jv-job-list-name a {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #302f4d;
+    font-weight: bold;
+    cursor: pointer !important;
+}
+
+.jv-job-list .jv-job-list-location {
+    padding: 15px;
+    color: #676767;
+}
+
+.jv-page-body .jv-wrapper .jv-job-list tr:hover, .jv-page-body .jv-wrapper .jv-job-list tr:hover .jv-meta {
+    background: #379ce4;
+    color: #fff;
+}
+.jv-page-body .jv-wrapper .jv-job-list tr:hover a {
+    color: #fff !important;
+}
 
 
 
-/* ===== JOB LISTINGS PAGE  =================== */ 
-	
-	.jv-page-error 		{ }
-	.jv-page-body h2 	{ }
 
-	
-	h3.h2     			{ }
-	.jv-job-list  		{ }
-	.jv-job-list th  	{ }
-	.jv-job-list td  	{ }
-	.jv-job-list .jv-job-list-name  		{ }
-	.jv-job-list .jv-job-list-location  	{ }
+.jv-page-body .jv-wrapper .jv-job-list {
+    border-radius: 4px;
+    border: none;
+    padding: 20px;
+}
+.jv-job-list:last-of-type {
+    margin-bottom: 100px;
+}
+.jv-footer hr,
+hr {
+    display: none;
+}
+/* ========== JOB DETAILS PAGE =============== */
 
+h2.jv-header {
+}
 
+.jv-job-detail-meta,
+.jv-apply-meta {
+}
 
+.jv-button {
+}
+.jv-button-primary {
+}
 
+.jv-current-openings {
+}
+.jv-share-widget {
+}
 
+.jv-job-detail-bottom-actions,
+.jv-apply-form-actions {
+}
 
-/* ========== JOB DETAILS PAGE =============== */ 
-	
-	h2.jv-header 	{}
+/* ========== APPLY PAGE ====================== */
 
-	.jv-job-detail-meta,
-	.jv-apply-meta    		{}
+.jv-form {
+}
+.jv-apply-form {
+}
+.jv-search-form {
+}
 
-
-	.jv-button { }
-	.jv-button-primary { }
-
-	.jv-current-openings 	{ }
-	.jv-share-widget 		{ }
-
-	.jv-job-detail-bottom-actions,
-	.jv-apply-form-actions 	{ }
-
-
-
-
-
-
-/* ========== APPLY PAGE ====================== */ 
-	
-	.jv-form 				{}
-	.jv-apply-form 			{}
-	.jv-search-form 		{}
-
-	.jv-apply-step 			{}
-	.jv-apply-section 		{}
-	.jv-step-header 		{} 		/* Section Title */
-	.jv-required-label 		{}
-
-
-
-	
-
-
-
-
-
-
+.jv-apply-step {
+}
+.jv-apply-section {
+}
+.jv-step-header {
+} /* Section Title */
+.jv-required-label {
+}
