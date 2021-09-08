@@ -13,10 +13,10 @@
     border: none;
 }
 .jv-page-container .jv-logo a {
-    width: 780px;
+    width: 100%;
     height: 440px;
     font-size: 0;
-    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/logo.png") no-repeat center;
+    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/logo.jpg") no-repeat center;
     background-size: cover;
     cursor: pointer !important;
 }
@@ -39,12 +39,12 @@
 }
 .jv-footer {
     width: 780px;
-    height: 630px;
+    height: 270px;
     font-size: 0;
-    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-1.png") no-repeat center 0px, url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-2.png") no-repeat 0px 283px;
-    background-size: 354px, 780px;
+    background: url("https://ita-pm.github.io/jobvite-styling/cy/img/awards-2.png") no-repeat center 0px;
+    background-size: 500px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .jv-footer  .jv-wrapper{
@@ -96,11 +96,11 @@ h3.h2 {
 }
 
 .jv-page-body .jv-wrapper .jv-job-list tr:hover, .jv-page-body .jv-wrapper .jv-job-list tr:hover .jv-meta {
-    background: #379ce4;
-    color: #fff;
+    background: #dadada;
+    color: #000;
 }
 .jv-page-body .jv-wrapper .jv-job-list tr:hover a {
-    color: #fff !important;
+    color: #000 !important;text-decoration: underline;
 }
 
 
@@ -158,3 +158,4 @@ h2.jv-header {
 } /* Section Title */
 .jv-required-label {
 }
+
