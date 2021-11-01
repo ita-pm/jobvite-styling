@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 440px;
+    height: 374px;
     border: none;
 }
 .jv-page-container .jv-logo a {
@@ -28,7 +28,7 @@
 .jv-page-header {
     margin-left: calc((100vw - 780px) / -2);
     margin-right: calc((100vw - 780px) / -2);
-    height: 440px;
+    height: 374px;
     background-color: #379ce4;
 }
 .jv-page-body {
